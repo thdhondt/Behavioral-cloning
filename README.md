@@ -1,7 +1,5 @@
 #Behavioral cloning
 
-## Table of content
-[TOC]
 ## Introduction
 The aim of this present project is to predict the steering angle to be applied on a car using images captured using a front facing camera. For this purpose, this image is fed as an input to a convolutional network, followed by several fully connected layers, which results in the final normalized steering command. This model is trained on data acquired by driving the vehicle manually around a circuit . Hence, the model tries to copy the natural behavior of a driver, which is a method called behavioral cloning. This architecture of the project is illustrated in the following diagram.
 
